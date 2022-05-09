@@ -2,9 +2,10 @@ import React from 'react';
 
 class Header extends React.Component {
   render() {
+    const text = 'Sistema Solar';
     return (
       <header>
-        <h1>Sistema Solar</h1>
+        <h1>{text}</h1>
       </header>
     );
   }
